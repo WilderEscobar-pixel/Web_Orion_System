@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Orion Systems</title>
+    <meta name="description"
+        content="Contacta a Orion Systems. Teléfono: +58 414-5072232. Email: orionwsystems@gmail.com. Barquisimeto, Venezuela. Solicita tu Auditoría Orion 360 gratis.">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/logo.png" alt="Orion Systems Logo" class="logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="services.html" class="nav-link">Servicios</a></li>
+                <li><a href="about.html" class="nav-link">Nosotros</a></li>
+                <li><a href="contact.html" class="nav-link active">Contacto</a></li>
+                <li><a href="#" class="nav-link nav-cta" id="openAuditBtn">Auditoría Gratis</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <div class="hero-sub-bg">
+                <div class="hero-stars"></div>
+                <div class="hero-orbiters">
+                    <div class="orbiter"></div>
+                    <div class="orbiter"></div>
+                    <div class="orbiter"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="position:relative;z-index:2;">
+            <div class="page-hero-content anim-fade-up">
+                <span class="section-tag">Hablemos</span>
+                <h1 class="hero-title">Ponte en <span class="text-gradient">Contacto</span></h1>
+                <p class="hero-subtitle">¿Listo para comenzar tu transformación digital? Estamos a solo un mensaje de
+                    distancia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info anim-fade-up">
+                    <h2>Información de <span class="text-gradient">Contacto</span></h2>
+                    <p class="contact-intro">Nuestro equipo está disponible para atender tus consultas y agendar tu
+                        Auditoría de Diagnóstico Inicial (Orion 360).</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📱</div>
+                            <div>
+                                <h4>Teléfono / WhatsApp</h4>
+                                <a href="https://wa.me/584145072232" target="_blank">+58 414-5072232</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:orionwsystems@gmail.com">orionwsystems@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <span>Barquisimeto, Estado Lara, Venezuela</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📸</div>
+                            <div>
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/orionsystems_" target="_blank">@orionsystems_</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-hours">
+                        <h4>Horario de Atención</h4>
+                        <p>Lunes a Viernes: 8:00 AM — 6:00 PM (VET)</p>
+                        <p>Sábados: 9:00 AM — 1:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper anim-fade-up" style="animation-delay:0.2s;">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cfName">Nombre Completo *</label>
+                                <input type="text" id="cfName" name="name" required placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="cfPhone">Teléfono *</label>
+                                <input type="tel" id="cfPhone" name="phone" required placeholder="+58 ...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cfEmail">Email *</label>
+                            <input type="email" id="cfEmail" name="email" required placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="cfCompany">Empresa</label>
+                            <input type="text" id="cfCompany" name="company" placeholder="Nombre de tu empresa">
+                        </div>
+                        <div class="form-group">
+                            <label for="cfService">Servicio de Interés</label>
+                            <select id="cfService" name="service">
+                                <option value="">Seleccionar...</option>
+                                <option value="automatizacion">Automatización de Procesos</option>
+                                <option value="chatbots">Chatbots y Agentes</option>
+                                <option value="publicidad">Publicidad Online</option>
+                                <option value="funnels">Funnels de Venta</option>
+                                <option value="apps">Apps a Medida</option>
+                                <option value="dashboards">Dashboards Power BI</option>
+                                <option value="consultoria">Consultoría Empresarial</option>
+                                <option value="auditoria">Auditoría Orion 360</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="cfMessage">Mensaje *</label>
+                            <textarea id="cfMessage" name="message" rows="4" required
+                                placeholder="Cuéntanos sobre tu proyecto o necesidad..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje por WhatsApp</button>
+                    </form>
+                    <div class="contact-form-success" id="contactSuccess" style="display:none;">
+                        <div class="success-icon">✅</div>
+                        <h3>¡Mensaje Enviado!</h3>
+                        <p>Te redirigimos a WhatsApp para continuar la conversación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="Orion Systems" class="logo-img">
+                    </div>
+                    <p class="footer-tagline">Impulsando la eficiencia, Liderando el futuro.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="services.html">Servicios</a></li>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="tel:+584145072232">+58 414-5072232</a></li>
+                        <li><a href="mailto:orionwsystems@gmail.com">orionwsystems@gmail.com</a></li>
+                        <li><span>Barquisimeto, Venezuela</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Orion Systems. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/584145072232" target="_blank" rel="noopener" class="whatsapp-float"
+        aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="white">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- AUDIT MODAL -->
+    <div class="modal-overlay" id="auditModal">
+        <div class="modal">
+            <button class="modal-close" id="closeModal" aria-label="Cerrar">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon">🔍</div>
+                <h2>Solicita tu Diagnóstico Orion 360: El primer paso hacia la Empresa Autónoma.</h2>
+                <p class="modal-gancho">La Inteligencia Artificial es un amplificador: si tus procesos son ineficientes,
+                    la IA solo acelerará el desastre. Antes de implementar, diagnosticamos para asegurar que la
+                    tecnología sea el catalizador de tu rentabilidad, no un riesgo para tu operativa.</p>
+            </div>
+            <form class="audit-form" id="auditForm">
+                <!-- Sección A: Identidad -->
+                <div class="form-section">
+                    <h4>Sección A: Identidad y Filtro de Mercado</h4>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="decisor">Nombre del Decisor y Cargo *</label>
+                            <input type="text" id="decisor" name="decisor" required placeholder="Ej: Juan Pérez - CEO">
+                        </div>
+                        <div class="form-group">
+                            <label for="companyName">Nombre de la Empresa y Ubicación *</label>
+                            <input type="text" id="companyName" name="companyName" required
+                                placeholder="Ej: Mi Empresa C.A. - Venezuela">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nicho">Nicho de Mercado *</label>
+                            <select id="nicho" name="nicho" required onchange="toggleOtherNiche(this)">
+                                <option value="">Seleccionar...</option>
+                                <option value="Clinicas">Clínicas y Salud</option>
+                                <option value="Inmobiliaria">Inmobiliaria</option>
+                                <option value="Ecommerce">E-commerce</option>
+                                <option value="Logistica">Logística y Transporte</option>
+                                <option value="Educacion">Educación / Academias</option>
+                                <option value="Servicios">Servicios Profesionales</option>
+                                <option value="Manufactura">Manufactura / Industrial</option>
+                                <option value="Otro">Otro (Especificar)</option>
+                            </select>
+                            <div id="otherNicheWrapper" style="display:none; margin-top: 10px;">
+                                <input type="text" id="nicho_otro" name="nicho_otro"
+                                    placeholder="¿Cuál es el nicho de tu empresa?">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Presupuesto Estimado para el Proyecto (Opcional)</label>
+                            <input type="text" id="budget" name="budget" placeholder="Ej: $2,000 - $5,000">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactPhone">Teléfono / WhatsApp *</label>
+                            <input type="tel" id="contactPhone" name="phone" required placeholder="+58 ...">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email Corporativo *</label>
+                            <input type="email" id="contactEmail" name="email" required
+                                placeholder="nombre@empresa.com">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección B: El Electrocardiograma -->
+                <div class="form-section">
+                    <h4>Sección B: El Electrocardiograma (Dolores)</h4>
+                    <p class="section-desc-form">Identifica dónde sientes mayor obstrucción (puedes marcar varias):</p>
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="dolores" value="Ventas"> Ventas: ¿Pierdes leads por falta de
+                            respuesta rápida en WhatsApp?
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="dolores" value="Marketing"> Marketing: ¿Tus sistemas de
+                            publicidad no están orquestados con tu equipo comercial?
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="dolores" value="Administracion"> Administración: ¿Tus procesos
+                            de facturación o gestión de datos son lentos y manuales?
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="dolores" value="Fulfillment"> Fulfillment (Entrega): ¿Tienes
+                            cuellos de botella que afectan tu reputación?
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Sección C: Stack Tecnológico -->
+                <div class="form-section">
+                    <h4>Sección C: Stack Tecnológico e Infraestructura</h4>
+                    <div class="form-group">
+                        <label for="stack">¿Qué herramientas utilizas actualmente? (CRM, ERP, Ads...)</label>
+                        <input type="text" id="stack" name="stack"
+                            placeholder="Ej: Salesforce, Google Workspace, Meta Ads...">
+                    </div>
+                    <div class="form-group">
+                        <label for="data_state">Estado de los Datos</label>
+                        <select id="data_state" name="data_state">
+                            <option value="Dispersos">Dispersos en archivos manuales / Excels sueltos</option>
+                            <option value="Organizados">Organizados en bases de datos centralizadas</option>
+                            <option value="Hibridos">Híbridos / En proceso de digitalización</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">Solicitar Auditoría de Diagnóstico
+                    Inicial</button>
+            </form>
+            <div class="modal-success" id="modalSuccess" style="display:none;">
+                <div class="success-icon">✨</div>
+                <h3>¡Gracias por confiar en Orion Systems!</h3>
+                <p>Nuestro equipo analizará tu infraestructura y nos pondremos en contacto para presentarte tu Roadmap
+                    Técnico de transformación.</p>
+                <button class="btn btn-outline" id="closeSuccessBtn">Entendido</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        // Contact form handler
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const fd = new FormData(this);
+            const d = Object.fromEntries(fd);
+            const msg = `📩 *Nuevo Mensaje de Contacto*%0A%0A` +
+                `👤 *Nombre:* ${d.name}%0A` +
+                `📱 *Teléfono:* ${d.phone}%0A` +
+                `📧 *Email:* ${d.email}%0A` +
+                `🏢 *Empresa:* ${d.company || 'No especificada'}%0A` +
+                `🔧 *Servicio:* ${d.service || 'No especificado'}%0A` +
+                `💬 *Mensaje:* ${d.message}`;
+            window.open(`https://wa.me/584145072232?text=${msg}`, '_blank');
+            this.style.display = 'none';
+            document.getElementById('contactSuccess').style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>
