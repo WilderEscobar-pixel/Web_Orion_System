@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = Object.fromEntries(formData);
 
             // Build WhatsApp message for redundancy (optional, but keep it if user likes it)
-            const message = `📩 *Nuevo Mensaje de Contacto — Orion Systems*%0A%0A` +
+            const message = `📩 *Nuevo Mensaje de Contacto — Orion Gravity*%0A%0A` +
                 `👤 *Nombre:* ${data.name}%0A` +
                 `📱 *Teléfono:* ${data.phone}%0A` +
                 `📧 *Email:* ${data.email}%0A` +
